@@ -26,6 +26,7 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "mongodb-atlas-api-client": "^4.10.0",
-    "mongoose": "^8.16.5"
+    "mongoose": "^8.16.5",
+    "mongoose-aggregate-paginate-v2": "^1.1.4"
   }
 }
