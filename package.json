@@ -22,9 +22,11 @@
     "prettier": "^3.6.2"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongodb-atlas-api-client": "^4.10.0",
     "mongoose": "^8.16.5",
     "mongoose-aggregate-paginate-v2": "^1.1.4"
