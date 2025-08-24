@@ -12,7 +12,6 @@ export const verifyJWT = asyncHandler(async (req, _, next) => {
         throw new ApiError(401, "Access token is missing");
     }
 
-
     try {
         // verify token
         const decodedToken = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
